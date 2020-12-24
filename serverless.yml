@@ -31,9 +31,9 @@ provider:
   # commit your env.yml.
   #
   environment:
-    name_of_var: ${env:NAME_OF_VAR}
-    tableDB: ${self:custom.tableDB}
-    account: ${env:ACCOUNT}
+    name_of_var: testApp
+    tableDB: test
+    account: bunny
 
   iamRoleStatements:
     - Effect: Allow
