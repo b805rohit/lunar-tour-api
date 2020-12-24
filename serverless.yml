@@ -20,7 +20,7 @@ provider:
   runtime: nodejs12.x
   region: us-east-1
   stage: ${opt:stage, self:provider.stage}
-  TableDB: ${self:custom.stage}-tableDB
+  TableDB: "${self:custom.stage}-tableDB"
   tableThroughputs:
     prod: 1
     default: 1
